@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 120px;
+}
+
+.vector {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+.ronaldo {
+  position: absolute;
+  right: 160px;     
+  bottom: -250px;        
+  width: 560px;         
+}
+
+.portugal {
+  position: absolute;
+  right: 150px;
+  bottom: -350px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.mbappe {
+  position: absolute;
+  left: 80px;       
+  bottom: -380px;   
+  width: 560px;
+}
+
+.franca {
+  position: absolute;
+  left: 180px;
+  bottom: -480px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+
+.hero {
+  height: 190vh;
+
+  background: linear-gradient(
+    to right,
+    #26324A 50%,
+    #EB3527 50%
+  );
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 40px;
+  opacity: 1;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.vector { z-index: 20; }
+.ronaldo { z-index: 15; }
+.mbappe { z-index: 15; }
+.logo { z-index: 10; }
+.franca {z-index: 21;}
+
+.meu-botao {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  right: 170px;
+  bottom: -390px;
+  letter-spacing: 2px;
+}
+.meu-botao:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0);
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 120px;
+  letter-spacing: 3px;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 15px 40px;
+  background: #EB3527;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background: #1f8f3a; 
+}
+
+
+.portugal-page {
+  background: linear-gradient(
+    to right,
+    #1f8f3a 50%,
+    #EB3527 50%
+  );
+}
+.botao-voltar
+.botao-voltar {
+  transition: 0.3s ease;
+}
+
+.botao:hover,
+.botao-voltar:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+.botao-voltar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 25px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.botao-voltar:hover {
+  background: #ddd;
+}
+
+.selecao {
+  width: 1440px;      /* tamanho */
+  margin-top: -40px;  
+}
+
+
+a {
+  text-decoration: none;
+}
